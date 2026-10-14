@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Large datasets and packet captures
+data/*
+!data/README.md
+*.pcap
+*.pcapng
+
+# Generated models and experiment outputs
+models/*
+!models/README.md
+results/*
+!results/README.md
+
+# Editor and operating system
+.vscode/*
+!.vscode/settings.json
+.DS_Store

@@ -1,0 +1,9 @@
+{
+    "python.defaultInterpreterPath": "/home/alihussain/vpn-traffic-fyp/.venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "jupyter.notebookFileRoot": "/home/alihussain/vpn-traffic-fyp",
+    "editor.formatOnSave": true,
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "python.analysis.typeCheckingMode": "basic"
+}
