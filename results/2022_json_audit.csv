@@ -1,0 +1,36 @@
+relative_path,size_bytes,flows,packet_records,positive_bytes,negative_bytes,zero_bytes,missing_or_invalid_bytes,invalid_timestamp_fields,flows_without_packet_list,non_dict_flows,flow_fields,packet_fields,elapsed_seconds,status
+Non VPN/mail.json,923228,78,3737,2383,1354,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,0.05,OK
+Non VPN/meet.json,10530648,72,50460,32889,17571,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,0.31,OK
+Non VPN/non_streaming.json,4068647606,46191,17123675,9885306,7238369,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,94.64,OK
+Non VPN/ssh.json,2948374,43,11455,6567,4888,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,0.07,OK
+Non VPN/streaming.json,489832405,3807,2255630,1238030,1017600,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,11.85,OK
+VPN/L2TP/mail.json,6978,1,34,18,16,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;timestamp_end;timestamp_start,0.0,OK
+VPN/L2TP/meet.json,5672064,2,28134,16926,11208,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;timestamp_end;timestamp_start,0.18,OK
+VPN/L2TP/non_streaming.json,1557694137,1194,7731013,2765461,4965552,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;timestamp_end;timestamp_start,39.6,OK
+VPN/L2TP/ssh.json,35867,5,175,77,98,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;timestamp_end;timestamp_start,0.0,OK
+VPN/L2TP/streaming.json,209986305,112,1042122,418797,623325,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;timestamp_end;timestamp_start,6.58,OK
+VPN/L2TP IPsec/mail.json,220626,5,1088,518,570,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;timestamp_end;timestamp_start,0.01,OK
+VPN/L2TP IPsec/meet.json,16418119,4,81981,10531,71450,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;timestamp_end;timestamp_start,0.9,OK
+VPN/L2TP IPsec/non_streaming.json,2466986828,1759,12435430,4483237,7952193,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,83.07,OK
+VPN/L2TP IPsec/ssh.json,42209,5,206,93,113,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;timestamp_end;timestamp_start,0.0,OK
+VPN/L2TP IPsec/streaming.json,246754814,182,1240407,425052,815355,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;timestamp_end;timestamp_start,7.94,OK
+VPN/OpenVPN/mail.json,7278644,5,21506,12399,9107,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,0.3,OK
+VPN/OpenVPN/meet.json,15601868,2,46104,27505,18599,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,0.9,OK
+VPN/OpenVPN/non_streaming.json,2105101701,1010,6159330,2442753,3716577,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,71.17,OK
+VPN/OpenVPN/ssh.json,156035,5,456,222,234,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,0.01,OK
+VPN/OpenVPN/streaming.json,327319230,98,960200,384262,575938,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,16.47,OK
+VPN/PPTP/mail.json,247217,8,1213,609,604,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,0.01,OK
+VPN/PPTP/meet.json,7325443,2,36430,6429,30001,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,0.32,OK
+VPN/PPTP/non_streaming.json,1771024720,1361,8705989,3533432,5172557,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,53.75,OK
+VPN/PPTP/ssh.json,40880,5,200,90,110,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;timestamp_end;timestamp_start,0.0,OK
+VPN/PPTP/streaming.json,671278573,145,3336470,1304669,2031801,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,39.88,OK
+VPN/SSTP/mail.json,638106,5,1869,865,1004,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,0.02,OK
+VPN/SSTP/meet.json,22959920,2,67121,20180,46941,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,1.97,OK
+VPN/SSTP/non_streaming.json,2693894320,1009,7881432,3127936,4753496,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,98.23,OK
+VPN/SSTP/ssh.json,122226,5,358,176,182,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,0.0,OK
+VPN/SSTP/streaming.json,329179671,97,964234,423569,540665,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;tcp_ack_number;tcp_flags;tcp_header_len;tcp_seq_number;timestamp_end;timestamp_start,15.15,OK
+VPN/WireGuard/mail.json,240240,5,1184,586,598,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;timestamp_end;timestamp_start,0.01,OK
+VPN/WireGuard/meet.json,6833991,3,34031,19876,14155,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;timestamp_end;timestamp_start,0.23,OK
+VPN/WireGuard/non_streaming.json,2451044044,1555,12227556,5052543,7175013,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;timestamp_end;timestamp_start,82.99,OK
+VPN/WireGuard/ssh.json,46800,5,229,122,107,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;timestamp_end;timestamp_start,0.01,OK
+VPN/WireGuard/streaming.json,298096533,190,1484564,567012,917552,0,0,0,0,0,ip_proto;port_dst;port_src;x_packets,bytes;ip_header_len;packets;timestamp_end;timestamp_start,9.55,OK
