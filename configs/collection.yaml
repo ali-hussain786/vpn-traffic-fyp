@@ -1,0 +1,99 @@
+project:
+  name: "VPN Traffic FYP"
+  schema_version: 2
+
+collection:
+  target_classes:
+    - "Normal"
+    - "OpenVPN"
+    - "WireGuard"
+  capture_format: "pcapng"
+  python_version: "3.12"
+  flow_extractor: "NFStream"
+  flow_extractor_version: "6.6.0"
+  collection_unit: "capture_session"
+  model_data_unit: "network_flow"
+  task_sequence_id: "TASKSEQ_01"
+  target_duration_seconds: 420
+
+privacy:
+  inspect_payload: false
+  retain_raw_capture_outside_git: true
+  use_synthetic_test_accounts: true
+  store_personal_credentials: false
+  exclude_from_model_features:
+    - "src_ip"
+    - "src_port"
+    - "dst_ip"
+    - "dst_port"
+    - "src_mac"
+    - "dst_mac"
+    - "protocol"
+    - "application_name"
+    - "application_category"
+    - "capture_filename"
+    - "session_id"
+    - "task_id"
+    - "device_id"
+    - "capture_location_code"
+    - "vpn_software"
+    - "vpn_protocol"
+    - "timestamp"
+    - "label"
+
+metadata_required:
+  - "session_id"
+  - "capture_date"
+  - "capture_start_time"
+  - "capture_timezone"
+  - "capture_duration_seconds"
+  - "class_label"
+  - "operating_system"
+  - "os_version"
+  - "device_id"
+  - "python_version"
+  - "nfstream_version"
+  - "network_type"
+  - "capture_location_code"
+  - "vpn_software"
+  - "vpn_software_version"
+  - "vpn_protocol"
+  - "vpn_connected_status"
+  - "capture_tool"
+  - "capture_tool_version"
+  - "task_sequence_id"
+  - "repeat_number"
+  - "session_status"
+
+valid_values:
+  class_label:
+    - "Normal"
+    - "OpenVPN"
+    - "WireGuard"
+  operating_system:
+    - "Fedora"
+    - "Windows 11"
+  network_type:
+    - "Home"
+    - "University"
+    - "Other"
+  session_status:
+    - "Valid"
+    - "Failed"
+    - "Needs_review"
+
+model_features:
+  initial_candidate_features:
+    - "packet_record_count"
+    - "forward_bytes"
+    - "backward_bytes"
+    - "packet_size_std"
+    - "packet_size_min"
+    - "packet_size_max"
+    - "duration_s"
+    - "iat_mean_s"
+    - "iat_std_s"
+    - "iat_max_s"
+  target_column: "label"
+  target_is_not_a_feature: true
+  compatibility_with_historical_data_must_be_verified: true
