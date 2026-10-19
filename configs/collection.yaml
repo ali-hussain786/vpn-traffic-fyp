@@ -14,7 +14,7 @@ collection:
   collection_unit: "capture_session"
   model_data_unit: "network_flow"
   task_sequence_id: "TASKSEQ_01"
-  target_duration_seconds: 420
+  target_duration_seconds: 1800
 
 privacy:
   inspect_payload: false
